@@ -66,3 +66,5 @@ router.post("/api/v1/google-login", async(req, res, next) => {
         profile: user,
     });
 });
+
+export default router;
